@@ -1,10 +1,4 @@
 ﻿  CALL.c
 c:\users\r\source\repos\dxfassist\dxfassist\call.c(41): warning C4022: “InjectCreateThreadRunAsm”: 指针与实参 2 不匹配
-  Source.c
-c:\users\r\source\repos\dxfassist\dxfassist\memory.h(45): warning C4090: “函数”: 不同的“const”限定符
-c:\users\r\source\repos\dxfassist\dxfassist\memory.h(75): warning C4090: “函数”: 不同的“const”限定符
-c:\users\r\source\repos\dxfassist\dxfassist\memory.h(106): warning C4090: “函数”: 不同的“const”限定符
-c:\users\r\source\repos\dxfassist\dxfassist\memory.h(131): warning C4090: “函数”: 不同的“const”限定符
-  正在生成代码...
-c:\users\r\source\repos\dxfassist\dxfassist\memory.h(125): warning C4172: 返回局部变量或临时变量的地址: buffer
-  DXFAssist.vcxproj -> c:\users\r\source\repos\DXFAssist\Debug\DXFAssist.exe
+  LINK : 没有找到 C:\Users\R\source\repos\DXFAssist\Debug\DXFAssist.exe 或上一个增量链接没有生成它；正在执行完全链接
+  DXFAssist.vcxproj -> C:\Users\R\source\repos\DXFAssist\Debug\DXFAssist.exe

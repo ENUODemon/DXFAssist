@@ -15,7 +15,7 @@ void __declspec(naked) fun()
 
 void TestCALL()
 {
-	HANDLE htest = GetProcessHandleByName("TestApp.exe");
+	HANDLE htest = GetProcessHandleByName("DNF.exe");
 	int i = 0;
 	int j = 0;
 	__asm
@@ -27,10 +27,10 @@ void TestCALL()
 goto end;
 	_asm
 	{
-		mov eax, 1
-		add eax, 1
-		mov ebx, eax
-        ret 
+		mov eax, 0x00400600
+		mov ebx,0x100
+		add [eax], ebx
+		ret
 	}
 end:
 	__asm
